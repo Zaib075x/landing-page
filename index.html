@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Implifi | CS Labs made easy</title>
+    <link rel="icon" href="favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <nav class="navbar">
+        <div class="navbar-content">
+          <div class="left">
+            <a href="/"
+              ><img src="images/logo-white.png" alt="implifi-logo"
+            /></a>
+          </div>
+          <div class="right">
+            <div class="nav-btn">
+              <label for="nav-check"> </label>
+            </div>
+            <ul class="nav-options" id="menuList">
+              <li class="nav-lists"><a href="about/index.html">About</a></li>
+              <!-- <li class="nav-lists"><a href="/">Home</a></li> -->
+              <li class="nav-lists">
+                <a href="#services-heading">Services</a>
+              </li>
+              <li class="nav-lists"><a href="/">Help</a></li>
+              <li class="get-started">
+                <button onclick="buttonClick()"><p>Get Started</p></button>
+              </li>
+            </ul>
+            <button id="menu-icon-btn" onclick="navDisplay()">
+              <i
+                id="menu-icon"
+                class="fa-solid fa-bars"
+                style="color: #ffffff"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="purple-line"
+          style="
+            height: 1px;
+            width: 90%;
+            margin: auto;
+            background: #ffffff;
+            margin-top: 20px;
+          "
+        ></div>
+      </nav>
+      <section class="hero">
+        <div class="hero-left">
+          <h4>Inspire.</h4>
+          <h4>Innovate.</h4>
+          <h1 id="implifi-aqua">Implifi.</h1>
+          <button class="hero-btn" onclick="buttonClick()">
+            <p>
+              Begin your journey now &nbsp; &nbsp;<i
+                class="fa-solid fa-arrow-right"
+              ></i>
+            </p>
+          </button>
+        </div>
+        <div class="hero-right">
+          <img src="images/log.png" alt="" />
+        </div>
+      </section>
+      <div class="purple-line"></div>
+      <div class="blank"></div>
+    </main>
+    <section class="section-2">
+      <div class="what">
+        <img src="images/macbook.jpg" alt="reva-labs-1" />
+        <div class="what-text">
+          <h2 class="what-heading">What is Implifi?</h2>
+          <div class="sec2-line" id="sec-2-line-1"></div>
+          <p class="what-content">
+            <b>Implifi</b> is a virtual learning platform that boosts your
+            practical learning experience in technology by moving your
+            traditional laboratories in universities and making them more
+            immersive and unique. With Implifi, you can refer to lab manual
+            while also practicing and execute the lab programs at one place
+            without any dependencies.
+          </p>
+        </div>
+      </div>
+      <div class="why">
+        <div class="why-text">
+          <div class="why-header">
+            <h2 class="why-heading">Why Implifi?</h2>
+            <div class="sec2-line" id="sec-2-line-2"></div>
+          </div>
+          <p class="why-content">
+            <b>Implifi</b> offers the services of computer science labs in your
+            educational institution at anywhere, anytime. With us, the students
+            can perform lab exercises easily while getting evaluated by their
+            teachers in the same platform. We aim to increase interest and
+            eagerness among students to acquire knowledge through unique ways
+            and make them learn new things according to their own pace and
+            convenience.
+          </p>
+        </div>
+        <img src="images/nulla.jpg" alt="reva-labs-2" />
+      </div>
+      <div class="blank"></div>
+    </section>
+    <section class="services">
+      <header id="services-heading" class="services-heading">
+        <h1>Explore our services</h1>
+        <div class="black-line"></div>
+      </header>
+      <div class="services-content">
+        <div class="box-items">
+          <a href="https://implifi.vercel.app/login">
+            <div class="box course-box">
+              <div class="box-content">
+                <h4>Courses</h4>
+                <div class="course-content">
+                  <p>Top courses and videos from our skilled faculty.</p>
+                  <hr />
+                  <p>
+                    Glance through our courses &nbsp
+                    <i class="fas fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+              <img src="images/icons/course.png" alt="course" />
+            </div>
+          </a>
+        </div>
+        <div class="box-items">
+          <a href="https://implifi.vercel.app/login">
+            <div class="box vlab-box">
+              <div class="box-content">
+                <h4>Virtual Labs</h4>
+                <div class="course-content">
+                  <p>Labs designed for REVA University students.</p>
+                  <hr />
+                  <p>
+                    Start practicing now &nbsp
+                    <i class="fas fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+              <img src="images/icons/lab.png" alt="virtual-lab" /></div
+          ></a>
+        </div>
+        <div class="box-items">
+          <a href="https://implifi.vercel.app/login"
+            ><div class="box events-box">
+              <div class="box-content">
+                <h4>Events</h4>
+                <div class="course-content">
+                  <p>Attend and participate in live lectures and workshops.</p>
+                  <hr />
+                  <p>
+                    Check what's happening &nbsp
+                    <i class="fas fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+              <img src="images/icons/events.png" alt="events" /></div
+          ></a>
+        </div>
+        <div class="box-items">
+          <a href="https://implifi.vercel.app/login">
+            <div class="box certify-box">
+              <div class="box-content">
+                <h4>Certification</h4>
+                <div class="course-content">
+                  <p>
+                    Display your skills, Get certified and gain recognition.
+                  </p>
+                  <hr />
+                  <p>
+                    Earn your certification &nbsp
+                    <i class="fas fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+              <img src="images/icons/certify.png" alt="certify" /></div
+          ></a>
+        </div>
+      </div>
+      <div class="blank"></div>
+    </section>
+    <footer>
+      <div class="signup">
+        <div class="sign-bar">
+          <div class="sign-bar-left">
+            <h2 class="signup-text">
+              Let's get going! &nbsp;
+              <span class=""><i class="fa-regular fa-paper-plane"></i></span>
+            </h2>
+          </div>
+          <button class="footer-button" type="button" onclick="buttonClick()">
+            Sign up
+          </button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="top-footer">
+          <div class="left-footer">
+            <p><i class="fa-solid fa-location-dot"></i> Bangalore,Karnataka</p>
+            <p><i class="fa-solid fa-phone"></i>+91 987654310</p>
+            <p><i class="fa-sharp fa-solid fa-envelope"></i>info@implifi.com</p>
+          </div>
+          <div class="mid-footer">
+            <img id="footer-implifi" src="images/logo-white.png" alt="" />
+            <h5>B Y</h5>
+            <img id="footer-reva" src="images/logo.svg" alt="reva_logo" />
+            <p
+              class="cit"
+              style="margin-left: 30px; margin-top: 30px; letter-spacing: 3px"
+            >
+              SCHOOL OF C&AMP;IT
+            </p>
+          </div>
+          <div class="right-footer">
+            <h3>Contact Us</h3>
+            <input id="mail-input" type="text" placeholder="Your Email Here." />
+            <input id="submit-btn" type="submit" value="Send" />
+          </div>
+        </div>
+        <div class="orange-line"></div>
+        <ul class="footer-links">
+          <li>
+            <a href="/"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa-brands fa-github"></i></a>
+          </li>
+        </ul>
+        <div class="copyright">
+          <p>&copy; Implifi 2023</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/b408d1d745.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
